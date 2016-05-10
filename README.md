@@ -1,2 +1,2 @@
-# SEA-app
+# SEA-App
 a simple questionnaire made to practice useing JS with HTML and the Google Maps API
