@@ -1,0 +1,48 @@
+ 
+/*set this style for the map to be visible*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map {
+    height: 20%;
+    margin: 0 20% 0 20%;
+}
+
+body {
+    background-color: darkgray;
+}
+
+/*centers questions and buttons*/
+#mainBody { 
+    text-align: center;
+    margin: 0 10% 0 10%;
+    padding: 0;
+    background-color: darkgray;
+}
+
+#questionBody {
+    text-align: center;    
+    margin: 0;
+}
+
+
+/*locks the footer at the bottom of the page*/
+footer {
+  position: absolute;    
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: floralwhite;
+  text-align: center;
+}
+
+/*locks the table to the bottom of the page*/
+#pictures {
+  position: absolute;    
+  right: 0;
+  bottom: 5%;
+  left: 0;
+  text-align: center;
+}
