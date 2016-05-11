@@ -1,11 +1,11 @@
 
 var introduction = {
     begin: "Great! Let's get started. Choose 'Option 1' for the choice on the left or 'Option 2' for the choice on the right.",
-    intro: "Who am I? My name is Ryan Morris former US Army Infantryman, entrepreneur and international backpacker extraordina... Anyway, I decided to swtich from my current field to the tech industry via programming and after a lot of research found out about code bootcamps. One of the top programs is Hack Reactor, also known as the “Harvard of boot camps,”  and I interviewed for them awhile back. Well, I wasn’t ready :(. Since then, I have been working on this project to sharpen my skills and try again! This is my very first project, much more to follow. This would be Option 1 (Sound's great man!), and Option 2 (Get to work!)"
+    intro: "Who am I? My name is Ryan Morris former US Army Infantryman, entrepreneur and international backpacker extraordin... Anyway, I decided to swtich from my current field to the tech industry via programming and after a lot of research found out about code bootcamps. One of the top programs is Hack Reactor, also known as the “Harvard of boot camps,”  and I interviewed for them awhile back. Well, I wasn’t ready :(. Since then, I have been working on this project to sharpen my skills and try again! This is my very first project, much more to follow. This would be Option 1 (Sound's great man!), and Option 2 (Get to work!)"
 };
 
 var questions = {
-    1:	"Where do you see yourself? (Mountains, Beachs)",
+    1:	"Where do you see yourself? (Mountains, Beaches)",
     2:	"Are you more of an outdoors or indoors person, or both? (Indoors, Outdoors)",
     3:	"Do you consider yourself adventurous? (Kinda, Totally)",
     4:	"Are you that way with food? Adventurous I mean. (Kinda, Totally)",
@@ -15,7 +15,7 @@ var questions = {
 var Thailand = "You cannot go wrong with Thailand! It is a wonderful country that truely has something for everyone";
 var Philippines = "The Philippines isn't as widely trvaelled by backpackers as the others and that is a real shame. If you love the outdoors, especially mountain hikes and beautiful beaches, the Phillipines is for you!";
 var Vietnam = "Vietnam is the cheapest destination in South East Asia. The best thing about Vietnam is that it only recently opened up to tourists, compared to the others, and has a ton of local charm. Plus, the Pho!";
-var Malaysia = "While Malaysia has great nature scenes I think it's cities are where it is at here. Malaysia is a cultural melting pot and it shows. It is also a foodies dream location with so many different fares to choose from!";
+var Malaysia = "While Malaysia has great nature scenes I think the cities are where it is at here. Malaysia is a cultural melting pot and it shows. It is also a foodies dream location with so many different fares to choose from!";
 
 /*the arrayQuestions returns an array from the objs so it is easier to iterate through them in order. I used objs to store the questions so that I could easily add or change questions in order.*/
 function arrayQuestions(intro, questions) {
